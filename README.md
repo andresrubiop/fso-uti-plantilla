@@ -12,6 +12,9 @@ y entregas tu código.
    conectada a tu codespace («▶ Ejecutar», «Preparar TDn», «▶_ Terminal»).
 4. Edita el código en VS Code (`tds/td1/…`) y **guarda tu trabajo en GitHub**: panel *Source Control* (Ctrl+Shift+G)
    → escribe un mensaje → *Commit* → *Sync Changes*. Así queda entregado.
+5. **Informe de cada laboratorio:** en LaTeX con la plantilla del curso (aula → Unidad 1 → Laboratorio TD0 →
+   «El informe de cada laboratorio»: plantilla, ejemplo y guía de Prism). Guarda el PDF y el `.zip` en `informes/tdN/`
+   de este repositorio y súbelos igual que el código. IA generativa permitida, con declaración.
 
 - Deja el puerto 8765 **privado** (así viene).
 - Al terminar, detén el codespace (github.com/codespaces → «…» → *Stop*). Para volver, abre el mismo: conserva

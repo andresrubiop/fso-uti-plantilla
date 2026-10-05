@@ -1,0 +1,7 @@
+$ ./http_server -m pool &  ./load PORT 1 31 1000; ./load PORT 8 24 1000
+32 replies 200 OK of 32
+  slow  1: median   1001 ms, max   1001 ms
+  fast 31: median      1 ms, max      1 ms
+32 replies 200 OK of 32
+  slow  8: median   1001 ms, max   1001 ms
+  fast 24: median    981 ms, max    981 ms

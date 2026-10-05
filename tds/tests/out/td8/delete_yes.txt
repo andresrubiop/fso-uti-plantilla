@@ -1,0 +1,7 @@
+$ ./agent -y "borra viejo.txt"
+model: delete_file("viejo.txt")
+policy: ask (destructive action: needs the user's consent)
+ask: allow the agent to run delete_file("viejo.txt")? [y/N]
+> y (automatic answer)
+[sandbox: Landlock ABI 8, workspace only]
+viejo.txt deleted

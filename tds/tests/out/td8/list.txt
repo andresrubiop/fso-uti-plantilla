@@ -1,0 +1,7 @@
+$ ./agent "lista los archivos de docs"
+model: list_files("docs")
+policy: allow (tool in the catalogue, path inside the workspace)
+[sandbox: Landlock ABI 8, workspace only]
+2 entries in docs
+  -        0  plan.md
+  -        0  syllabus.pdf

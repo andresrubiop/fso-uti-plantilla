@@ -1,0 +1,12 @@
+$ ./myls -lR demo
+demo:
+drwxrwxr-x   3 student student     4096 2026-09-30 13:12 .
+drwxrwxr-x   3 student student     4096 2026-09-30 13:12 ..
+-rw-rw-r--   1 student student        3 2026-09-30 13:12 a.txt
+lrwxrwxrwx   1 student student        5 2026-09-30 13:12 link -> a.txt
+prw-rw-r--   1 student student        0 2026-09-30 13:12 pipe
+drwxrwxr-x   2 student student     4096 2026-09-30 13:12 sub
+
+demo/sub:
+drwxrwxr-x   2 student student     4096 2026-09-30 13:12 .
+drwxrwxr-x   3 student student     4096 2026-09-30 13:12 ..

@@ -1,0 +1,5 @@
+$ ./launch out.txt ls -1 demo; cat out.txt
+launch: ls exited with status 0
+ls -1 demo
+a.txt
+b.txt

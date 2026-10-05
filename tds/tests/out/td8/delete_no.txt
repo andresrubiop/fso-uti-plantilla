@@ -1,0 +1,6 @@
+$ ./agent -n "borra viejo.txt"
+model: delete_file("viejo.txt")
+policy: ask (destructive action: needs the user's consent)
+ask: allow the agent to run delete_file("viejo.txt")? [y/N]
+> n (automatic answer)
+cancelled by the user

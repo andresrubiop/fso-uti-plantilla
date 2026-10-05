@@ -1,0 +1,5 @@
+$ ./map_ew
+PROT = PROT_WRITE|PROT_EXEC
+pointer: 0x7872e8140000
+read:    *p = 0
+write:   *p = 42

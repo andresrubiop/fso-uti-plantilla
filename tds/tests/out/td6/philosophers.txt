@@ -1,0 +1,4 @@
+$ ./philosophers 3 | tail -3
+ 7: full
+ 7: done after 3 meals
+dinner finished: 8 philosophers x 3 meals

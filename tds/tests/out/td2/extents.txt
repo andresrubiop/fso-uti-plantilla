@@ -1,0 +1,7 @@
+$ head -c 10000000 /dev/urandom > big.bin; sync big.bin; filefrag -v big.bin
+Filesystem type is: ef53
+File size of big.bin is 10000000 (2442 blocks of 4096 bytes)
+ ext:     logical_offset:        physical_offset: length:   expected: flags:
+   0:        0..    2047:   15654912..  15656959:   2048:            
+   1:     2048..    2441:   15673843..  15674236:    394:   15656960: last,eof
+big.bin: 2 extents found

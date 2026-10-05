@@ -1,0 +1,10 @@
+$ timeout 3 ./philosophers_deadlock 3 | tail -8; echo "exit status: ${PIPESTATUS[0]} (124 = still blocked after 3 s)"
+ 7: hungry
+ 2: hungry
+ 3: hungry
+ 1: hungry
+ 0: hungry
+ 6: hungry
+ 4: hungry
+ 5: hungry
+exit status: 124 (124 = still blocked after 3 s)

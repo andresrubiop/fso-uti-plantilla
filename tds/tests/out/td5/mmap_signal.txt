@@ -1,0 +1,4 @@
+$ ./receiver & sleep 0.3; echo 'hello from the sender' | ./sender; wait
+receiver 357391: waiting for SIGUSR1
+sender: the receiver is 357391
+received: hello from the sender

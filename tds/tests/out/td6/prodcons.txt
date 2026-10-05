@@ -1,0 +1,5 @@
+$ ./prodcons | tail -4
+consumer: sum after round 9 = 450000
+producer: round 10 written
+consumer: sum after round 10 = 550000
+sum = 550000, expected 550000: OK

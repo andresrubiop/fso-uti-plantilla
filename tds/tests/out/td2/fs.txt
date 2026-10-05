@@ -1,0 +1,4 @@
+$ df -iT . | cut -c1-80; stat -f -c 'block size: %S bytes' .
+Filesystem     Type   Inodes   IUsed    IFree IUse% Mounted on
+/dev/nvme0n1p5 ext4 25600000 2372366 23227634   10% /
+block size: 4096 bytes

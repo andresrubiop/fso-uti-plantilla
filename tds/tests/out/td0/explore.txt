@@ -1,0 +1,8 @@
+$ uname -srm; grep PRETTY_NAME /etc/os-release; ps -p 1 -o comm=; lsmod | tail -n +2 | wc -l; nproc; systemd-analyze
+Linux 7.0.0-34-generic x86_64
+PRETTY_NAME="Ubuntu 26.04 LTS"
+systemd
+237
+28
+Startup finished in 8.661s (firmware) + 3.568s (loader) + 3.253s (kernel) + 16.571s (userspace) = 32.053s 
+graphical.target reached after 16.569s in userspace.

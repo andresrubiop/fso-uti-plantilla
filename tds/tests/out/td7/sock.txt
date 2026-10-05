@@ -1,0 +1,5 @@
+$ ./sock 37634 & sleep 0.3; nc -z 127.0.0.1 37634 && echo 'client connected'; wait
+listening on port 37634
+connection accepted, closing
+Connection to 127.0.0.1 37634 port [tcp/*] succeeded!
+client connected

@@ -1,0 +1,3 @@
+$ ./fork_pid_0 | cat
+My pid is 356446 / child 356448, parent 356446
+My pid is 356446 / 

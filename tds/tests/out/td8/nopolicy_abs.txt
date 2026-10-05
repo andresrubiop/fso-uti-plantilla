@@ -1,0 +1,5 @@
+$ ./agent "lee /etc/passwd"
+model: read_file("/etc/passwd")
+policy: allow (POLICY DISABLED)
+[sandbox: Landlock ABI 8, workspace only]
+read_file: /etc/passwd: Permission denied

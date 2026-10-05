@@ -1,0 +1,6 @@
+tds/bin/
+tds/tests/tmp/
+**/*.o
+**/*.a
+__pycache__/
+.venv/

@@ -1,0 +1,2 @@
+$ for i in $(seq 8); do ./agent "lista mis archivos" & done; wait
+8

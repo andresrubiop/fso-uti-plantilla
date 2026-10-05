@@ -1,0 +1,2 @@
+$ ./pipeline_args ls -l demo -- grep txt -- wc -l
+2

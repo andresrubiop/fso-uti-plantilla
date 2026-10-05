@@ -1,0 +1,3 @@
+$ ./mypipe 10000 > /dev/null; echo "exit status of mypipe: $?"
+I am the child, I read 500 bytes and I leave
+exit status of mypipe: 141

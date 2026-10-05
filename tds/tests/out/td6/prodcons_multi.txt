@@ -1,0 +1,6 @@
+$ ./prodcons_multi 4 100000
+consumer 2: 23918 items
+consumer 3: 26423 items
+consumer 1: 23037 items
+consumer 0: 26622 items
+sum = 5000050000, expected 5000050000: OK

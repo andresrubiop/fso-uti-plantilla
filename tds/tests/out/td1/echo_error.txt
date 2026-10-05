@@ -1,0 +1,3 @@
+$ ./echo blabla < . 1>&0
+write: Bad file descriptor
+[exit status 1]

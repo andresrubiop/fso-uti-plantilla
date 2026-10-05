@@ -1,0 +1,5 @@
+$ ./map_none
+PROT = PROT_NONE
+pointer: 0x742c16995000
+bash: line 1: 357416 Segmentation fault         (core dumped) ./map_none
+[exit status 139]

@@ -1,0 +1,5 @@
+$ strace -f -c -e trace=futex ./lock_cost 1 100000; strace -f -c -e trace=futex ./lock_cost 8 100000
+1 thread(s) x 100000 lock/unlock: counter = 100000, 48.4 ns per lock/unlock
+  0.00    0.000000           0         1           futex
+8 thread(s) x 100000 lock/unlock: counter = 800000, 85.5 ns per lock/unlock
+100.00    0.223730          27      8013      3116 futex

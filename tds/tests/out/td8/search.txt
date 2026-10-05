@@ -1,0 +1,7 @@
+$ ./agent "busca 'error' en log.txt"
+model: search("error", "log.txt")
+policy: allow (tool in the catalogue, path inside the workspace)
+[sandbox: Landlock ABI 8, workspace only]
+log.txt:2: error: disk full
+log.txt:4: error: timeout
+2 matching line(s) for "error"

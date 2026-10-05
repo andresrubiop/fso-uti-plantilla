@@ -1,0 +1,3 @@
+$ ./read < input.txt
+first line
+second line

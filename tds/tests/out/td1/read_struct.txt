@@ -1,0 +1,2 @@
+$ ./write_struct | ./read_struct
+{ c1 = 'a', l = 5, c2 = 'b' }, bytes written = 24

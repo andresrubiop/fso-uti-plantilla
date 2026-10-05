@@ -1,0 +1,5 @@
+$ ./upper | head -4
+    PID TTY          TIME CMD
+   6706 ?        00:00:25 UVICORN
+   9771 ?        00:00:03 SYSTEMD
+   9801 ?        00:00:00 (SD-PAM)

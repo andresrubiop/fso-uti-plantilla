@@ -1,0 +1,7 @@
+$ ./myls demo
+d .
+d ..
+- a.txt
+l link
+p pipe
+d sub

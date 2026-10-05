@@ -1,0 +1,5 @@
+$ ./shm_counter; ./shm_counter; ./shm_counter; ./shm_counter --remove
+segment 65593 (key 0x4605476d): counter = 1
+segment 65593 (key 0x4605476d): counter = 2
+segment 65593 (key 0x4605476d): counter = 3
+segment 65593 removed

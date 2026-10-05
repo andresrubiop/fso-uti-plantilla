@@ -1,0 +1,5 @@
+$ ./agent "¿cuánto espacio libre queda?"
+model: disk_usage()
+policy: allow (tool in the catalogue, path inside the workspace)
+[sandbox: Landlock ABI 8, workspace only]
+file system of the workspace: 411.7 GB total, 105.7 GB available (74% used)

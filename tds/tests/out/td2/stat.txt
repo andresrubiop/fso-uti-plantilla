@@ -1,0 +1,9 @@
+$ stat notas.txt
+  File: notas.txt
+  size: 11        	Blocks: 8          IO Block: 4096   regular file
+Device: 259,5	Inode: 12190686    Links: 2
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/student)   Gid: ( 1000/student)
+Access: 2026-09-30 13:12:49.872600645 -0500
+Modify: 2026-09-30 13:12:49.872600645 -0500
+Change: 2026-09-30 13:12:49.879601063 -0500
+ Birth: 2026-09-30 13:12:49.872600645 -0500

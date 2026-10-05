@@ -1,0 +1,3 @@
+$ ./agent "cuéntame un chiste"
+model: none()
+policy: deny (no tool for this request)

@@ -1,0 +1,5 @@
+$ ./udp
+TCP: 3 writes (one, two, three) -> read #1 returns 11 bytes: "onetwothree"
+UDP: 3 sendto  (one, two, three) -> recvfrom #1: 3 "one", recvfrom #2: 3 "two", recvfrom #3: 5 "three"
+UDP: receive buffer 8192 bytes, 10000 sendto of 100 bytes succeeded, 8 received, 9992 lost
+     kernel counter Udp RcvbufErrors grew by 9992

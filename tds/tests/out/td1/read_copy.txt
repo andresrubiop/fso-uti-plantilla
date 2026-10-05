@@ -1,0 +1,2 @@
+$ ./read < binary.bin > copy.bin && cmp binary.bin copy.bin && echo identical
+identical

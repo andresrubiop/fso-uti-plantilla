@@ -1,0 +1,3 @@
+$ ./launch out.txt ./segfault
+launch: ./segfault killed by signal 11 (SIGSEGV), core dumped
+[exit status 139]

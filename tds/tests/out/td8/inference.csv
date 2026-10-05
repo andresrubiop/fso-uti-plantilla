@@ -1,0 +1,13 @@
+key,value
+params,174656
+layers,3
+d,64
+weights_bytes,698688
+kv_bytes,201984
+prompt_tokens,33
+gen_tokens,19
+load_ms,0.042
+infer_ms,9.08
+tokens_per_s,5730
+faults_load,2
+faults_infer,47

@@ -1,0 +1,2 @@
+$ python3 -c 'import os, fcntl; r, w = os.pipe(); print(fcntl.fcntl(w, fcntl.F_GETPIPE_SZ), "bytes")'
+65536 bytes

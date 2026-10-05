@@ -1,0 +1,2 @@
+$ python3 train/compare.py ./tinyllm 200
+200/200 respuestas idénticas entre NumPy y C

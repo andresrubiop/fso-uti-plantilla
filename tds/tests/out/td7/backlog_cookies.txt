@@ -1,0 +1,8 @@
+$ nstat -n; ./backlog 2 8; nstat | grep -E 'Syncookies|ListenOverflows'
+listen(2), 8 clients connect
+0.3 s, no accept yet:          accept queue 3 | clients ESTABLISHED 3, SYN_SENT 5
+accept 3 (total 3), wait:      accept queue 3 | clients ESTABLISHED 8, SYN_SENT 0
+accept 3 (total 6), wait:      accept queue 0 | clients ESTABLISHED 8, SYN_SENT 0
+accept 0 (total 6), wait:      accept queue 0 | clients ESTABLISHED 8, SYN_SENT 0
+TcpExtSyncookiesSent 2
+TcpExtListenOverflows 7

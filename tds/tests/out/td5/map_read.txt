@@ -1,0 +1,6 @@
+$ ./map_read
+PROT = PROT_READ
+pointer: 0x7b6b0d393000
+read:    *p = 0
+bash: line 1: 357431 Segmentation fault         (core dumped) ./map_read
+[exit status 139]

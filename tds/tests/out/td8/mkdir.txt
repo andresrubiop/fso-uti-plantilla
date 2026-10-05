@@ -1,0 +1,5 @@
+$ ./agent "crea la carpeta proyectos"
+model: make_dir("proyectos")
+policy: allow (tool in the catalogue, path inside the workspace)
+[sandbox: Landlock ABI 8, workspace only]
+directory proyectos created

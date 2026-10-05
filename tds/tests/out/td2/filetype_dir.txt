@@ -1,0 +1,2 @@
+$ ./filetype < /etc
+stdin: directory (inode 5767169, 165 link(s), 12288 bytes, mode 0755)

@@ -1,0 +1,3 @@
+$ ./pipeline_args ls -- sh -c 'kill -TERM $$'
+pipeline: last command killed by SIGTERM
+[exit status 1]

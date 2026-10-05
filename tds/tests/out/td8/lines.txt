@@ -1,0 +1,5 @@
+$ ./agent "¿cuántas líneas tiene main.c?"
+model: count_lines("main.c")
+policy: allow (tool in the catalogue, path inside the workspace)
+[sandbox: Landlock ABI 8, workspace only]
+main.c: 5 lines

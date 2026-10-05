@@ -1,0 +1,3 @@
+$ ./read < .
+read: Is a directory
+[exit status 1]

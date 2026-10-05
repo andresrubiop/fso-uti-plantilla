@@ -1,0 +1,8 @@
+$ for n in 50 100 … 1000; do run ./mypipe n 30 times; count exit statuses; done
+   50 messages: 30 x status 0    0 x status 141 (SIGPIPE)
+  100 messages: 30 x status 0    0 x status 141 (SIGPIPE)
+  200 messages: 28 x status 0    2 x status 141 (SIGPIPE)
+  300 messages: 19 x status 0   11 x status 141 (SIGPIPE)
+  400 messages:  5 x status 0   25 x status 141 (SIGPIPE)
+  500 messages:  5 x status 0   25 x status 141 (SIGPIPE)
+ 1000 messages:  0 x status 0   30 x status 141 (SIGPIPE)

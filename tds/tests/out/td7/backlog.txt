@@ -1,0 +1,5 @@
+$ ./backlog 4 8
+listen(4), 8 clients connect
+0.3 s, no accept yet:          accept queue 5 | clients ESTABLISHED 5, SYN_SENT 3
+accept 5 (total 5), wait:      accept queue 3 | clients ESTABLISHED 8, SYN_SENT 0
+accept 3 (total 8), wait: all 8 clients accepted

@@ -1,0 +1,6 @@
+$ curl -s -i http://localhost:PORT/ | tr -d '\r'   # mode iterative
+HTTP/1.0 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 20
+
+<h1>FSO · UTI</h1>

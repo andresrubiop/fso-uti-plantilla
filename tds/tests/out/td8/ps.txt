@@ -1,0 +1,10 @@
+$ ./agent "show running processes"
+model: processes()
+policy: allow (tool in the catalogue, path inside the workspace)
+[sandbox: Landlock ABI 8, workspace only]
+642 processes; the 5 that used the most CPU time:
+    13833  zoom                     4954.4 s
+    10445  gnome-shell              1522.7 s
+    85740  aomhost                  1021.8 s
+   314385  chrome                    926.5 s
+    28339  code                      877.6 s

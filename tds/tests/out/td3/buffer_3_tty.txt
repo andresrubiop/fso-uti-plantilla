@@ -1,0 +1,3 @@
+$ ./buffer_3            # en una terminal
+World!
+Hello 

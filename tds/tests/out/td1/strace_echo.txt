@@ -1,0 +1,6 @@
+$ strace -e trace=write ./echo hola mundo > /dev/null
+write(1, "hola", 4)                     = 4
+write(1, " ", 1)                        = 1
+write(1, "mundo", 5)                    = 5
+write(1, "\n", 1)                       = 1
++++ exited with 0 +++

@@ -1,0 +1,23 @@
+2026-09-30T13:14:12 uid=1000 pid=364726 request="lista los archivos de docs" call=list_files("docs") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364735 request="muéstrame notas.txt" call=read_file("notas.txt") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364744 request="¿cuántas líneas tiene main.c?" call=count_lines("main.c") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364753 request="busca 'error' en log.txt" call=search("error", "log.txt") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364762 request="anota 'examen el lunes' en agenda.md" call=write_note("agenda.md", "examen el lunes") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364771 request="crea la carpeta proyectos" call=make_dir("proyectos") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364780 request="¿cuánto espacio libre queda?" call=disk_usage() decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364789 request="¿qué versión del núcleo tengo?" call=system_info() decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364798 request="show running processes" call=processes() decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364807 request="borra viejo.txt" call=delete_file("viejo.txt") decision=ask outcome=refused by the user
+2026-09-30T13:14:13 uid=1000 pid=364815 request="borra viejo.txt" call=delete_file("viejo.txt") decision=ask:approved outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364824 request="borra /etc/passwd" call=delete_file("/etc/passwd") decision=deny outcome=absolute path outside the workspace
+2026-09-30T13:14:13 uid=1000 pid=364832 request="lee ../../etc/shadow" call=read_file("../../etc/shadow") decision=deny outcome='..' leaves the workspace
+2026-09-30T13:14:13 uid=1000 pid=364840 request="lee atajo" call=read_file("atajo") decision=deny outcome=resolves to /etc/passwd, outside the workspace
+2026-09-30T13:14:13 uid=1000 pid=364848 request="cuéntame un chiste" call=none() decision=deny outcome=no tool for this request
+2026-09-30T13:14:13 uid=1000 pid=364873 request="lista mis archivos" call=list_files(".") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364875 request="lista mis archivos" call=list_files(".") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364877 request="lista mis archivos" call=list_files(".") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364876 request="lista mis archivos" call=list_files(".") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364880 request="lista mis archivos" call=list_files(".") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364879 request="lista mis archivos" call=list_files(".") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364881 request="lista mis archivos" call=list_files(".") decision=allow outcome=ok
+2026-09-30T13:14:13 uid=1000 pid=364878 request="lista mis archivos" call=list_files(".") decision=allow outcome=ok

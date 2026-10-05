@@ -1,0 +1,4 @@
+$ ./tickets_mutex 100000 | tail -3
+[3] I sold 11577 tickets
+[2] I sold 11338 tickets
+100000 tickets sold out of 100000 (tickets = 0)

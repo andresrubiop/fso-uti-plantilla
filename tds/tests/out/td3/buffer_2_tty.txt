@@ -1,0 +1,2 @@
+$ ./buffer_2            # en una terminal
+Hello World!

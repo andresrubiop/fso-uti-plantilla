@@ -1,0 +1,2 @@
+$ python3 tcp_client.py blocked 34885     # server with fork
+client B got 'hi\n' after 0.00 s

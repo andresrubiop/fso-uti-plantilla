@@ -1,0 +1,11 @@
+$ for i in 1 2 3 4 5; do ./peterson; done; for i in 1 2 3 4 5; do ./peterson_fence; done
+Peterson no fence  : counter = 4000000, expected 4000000, lost 0
+Peterson no fence  : counter = 4000000, expected 4000000, lost 0
+Peterson no fence  : counter = 4000000, expected 4000000, lost 0
+Peterson no fence  : counter = 4000000, expected 4000000, lost 0
+Peterson no fence  : counter = 4000000, expected 4000000, lost 0
+Peterson with fence: counter = 4000000, expected 4000000, lost 0
+Peterson with fence: counter = 4000000, expected 4000000, lost 0
+Peterson with fence: counter = 4000000, expected 4000000, lost 0
+Peterson with fence: counter = 4000000, expected 4000000, lost 0
+Peterson with fence: counter = 4000000, expected 4000000, lost 0

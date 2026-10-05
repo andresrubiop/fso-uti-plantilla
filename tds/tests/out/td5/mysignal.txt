@@ -1,0 +1,7 @@
+$ ./mysignal 2 & P=$!; sleep 0.3; kill -USR1 $P; sleep 0.2; kill -STOP $P; kill -USR1 $P; sleep 0.2; kill -CONT $P; sleep 0.2; kill -USR1 $P; wait $P; echo "exit status: $? (128 + 10 = killed by SIGUSR1)"
+pid 357338: waiting for SIGUSR1 (2 times)
+handler: received signal 10
+handler: received signal 10
+default action restored: the next SIGUSR1 terminates me
+bash: line 1: 357338 User defined signal 1      ./mysignal 2
+exit status: 138 (128 + 10 = killed by SIGUSR1)

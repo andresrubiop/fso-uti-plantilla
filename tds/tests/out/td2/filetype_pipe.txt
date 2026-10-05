@@ -1,0 +1,2 @@
+$ echo hi | ./filetype
+stdin: FIFO (pipe) (inode 859154, 1 link(s), 0 bytes, mode 0600)

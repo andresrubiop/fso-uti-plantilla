@@ -1,0 +1,6 @@
+$ ./agent "¿qué versión del núcleo tengo?"
+model: system_info()
+policy: allow (tool in the catalogue, path inside the workspace)
+[sandbox: Landlock ABI 8, workspace only]
+Linux 7.0.0-34-generic (x86_64), 28 CPUs
+memory: 32.8 GB total, 6.9 GB free; 3110 processes; up 4 h 7 min

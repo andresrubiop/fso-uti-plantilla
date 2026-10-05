@@ -1,0 +1,2 @@
+$ ./errors notes.txt
+notes.txt opened as file descriptor 3

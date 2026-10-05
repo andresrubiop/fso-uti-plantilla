@@ -1,0 +1,5 @@
+$ ./map_exec
+PROT = PROT_EXEC
+pointer: 0x75b3a49d8000
+bash: line 1: 357495 Segmentation fault         (core dumped) ./map_exec
+[exit status 139]

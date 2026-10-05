@@ -1,0 +1,6 @@
+$ for i in 1 2 3 4 5; do ./shm_race 5 | cut -d: -f1; done
+19 processes registered (expected 32)
+28 processes registered (expected 32)
+25 processes registered (expected 32)
+23 processes registered (expected 32)
+27 processes registered (expected 32)

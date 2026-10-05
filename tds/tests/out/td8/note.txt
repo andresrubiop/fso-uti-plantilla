@@ -1,0 +1,5 @@
+$ ./agent "anota 'examen el lunes' en agenda.md"
+model: write_note("agenda.md", "examen el lunes")
+policy: allow (tool in the catalogue, path inside the workspace)
+[sandbox: Landlock ABI 8, workspace only]
+note appended to agenda.md

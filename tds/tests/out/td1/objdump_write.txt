@@ -1,0 +1,8 @@
+$ objdump -d --no-show-raw-insn /usr/lib/x86_64-linux-gnu/libc.so.6 | grep -A6 -E '^[0-9a-f]+ <__write_nocancel@@'
+0000000000129060 <__write_nocancel@@GLIBC_PRIVATE>:
+  129060:	endbr64
+  129064:	mov    $0x1,%eax
+  129069:	syscall
+  12906b:	cmp    $0xfffffffffffff000,%rax
+  129071:	ja     129078 <__write_nocancel@@GLIBC_PRIVATE+0x18>
+  129073:	ret

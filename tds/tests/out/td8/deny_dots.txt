@@ -1,0 +1,3 @@
+$ ./agent "lee ../../etc/shadow"
+model: read_file("../../etc/shadow")
+policy: deny ('..' leaves the workspace)

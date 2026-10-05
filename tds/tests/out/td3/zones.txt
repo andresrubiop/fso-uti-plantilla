@@ -1,0 +1,10 @@
+$ ./zones
+zone                            address   perm  region
+code   (main)            0x5f935f9d1350   r-xp  ~/fso/tds/bin/td3/zones
+data   (initialized)     0x5f935f9d5010   rw-p  ~/fso/tds/bin/td3/zones
+bss    (global_array)    0x5f935f9d5040   rw-p  ~/fso/tds/bin/td3/zones
+heap   (malloc 10 B)     0x5f938dc96010   rw-p  [heap]
+heap   (end: sbrk(0))    0x5f938dcb6fff   rw-p  [heap]
+mmap   (malloc 64 MiB)   0x71b340fff010   rw-p  (anonymous)
+libc   (printf)          0x71b345064080   r-xp  /usr/lib/x86_64-linux-gnu/libc.so.6
+stack  (local)           0x7fff6c1e68b4   rw-p  [stack]

@@ -1,0 +1,9 @@
+$ ./addr 7000
+port 7000 = 0x1b58; htons(7000) = 0x581b in memory order
+sin_port = 7000:           the kernel bound port 22555
+sin_port = htons(7000):    the kernel bound port 7000
+getaddrinfo("localhost", "http"): IPv4 127.0.0.1 port 80
+getaddrinfo("::1", "https"): IPv6 ::1 port 443
+ip_unprivileged_port_start = 1024
+sin_port = htons(80):      bind: Permission denied
+sizeof: sockaddr 16, sockaddr_in 16, sockaddr_in6 28, sockaddr_un 110, sockaddr_storage 128

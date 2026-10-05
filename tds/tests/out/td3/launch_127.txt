@@ -1,0 +1,4 @@
+$ ./launch out.txt nocommand
+nocommand: No such file or directory
+launch: nocommand exited with status 127
+[exit status 127]

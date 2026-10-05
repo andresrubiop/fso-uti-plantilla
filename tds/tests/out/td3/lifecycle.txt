@@ -1,0 +1,8 @@
+$ ./lifecycle
+1) the child 356667 has exited, but nobody has called wait yet:
+        PID    PPID STAT COMMAND
+     356667  356666 Z    lifecycle
+   waitpid -> WIFEXITED = 1, WEXITSTATUS = 7; now ps finds nothing:
+        PID    PPID STAT COMMAND
+2) orphan: my PID is 356666
+   grandchild 356679: parent was 9771, now it is 9771 (systemd)

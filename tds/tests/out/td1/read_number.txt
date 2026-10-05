@@ -1,0 +1,2 @@
+$ ./write_number | ./read_number
+value = 5, bytes written = 8

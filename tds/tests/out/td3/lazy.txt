@@ -1,0 +1,7 @@
+$ ./lazy 1024
+start                              VmRSS =     1756 KiB   page faults so far = 0
+malloc(1024 MiB) returned 0x7fadb67ff010
+after malloc                       VmRSS =     1952 KiB   page faults so far = 8
+after touching half of the pages   VmRSS =   526300 KiB   page faults so far = 131081
+pages touched: 131072 (4096 bytes each)   page faults: 131073   1968 ns per fault
+after free                         VmRSS =     2012 KiB   page faults so far = 131081

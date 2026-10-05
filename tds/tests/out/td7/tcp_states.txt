@@ -1,0 +1,11 @@
+$ ./tcp_states PORT; ss -tn state time-wait '( dport = :PORT )'
+socket+bind+listen(4)      | listener LISTEN (queue 0/4) | client -           | server -
+connect (no accept yet)    | listener LISTEN (queue 1/4) | client ESTABLISHED | server -
+accept                     | listener LISTEN (queue 0/4) | client ESTABLISHED | server ESTABLISHED
+write/read                 | server read 6 bytes
+client shutdown (FIN)      | listener LISTEN (queue 0/4) | client FIN_WAIT2   | server CLOSE_WAIT
+server read                | server read returns 0: end of file
+server shutdown (FIN)      | listener LISTEN (queue 0/4) | client CLOSED      | server CLOSED
+                           | the client's end moved to a TIME_WAIT entry of the kernel (60 s, see ss)
+Recv-Q Send-Q Local Address:Port  Peer Address:Port 
+0      0          127.0.0.1:42772    127.0.0.1:PORT

@@ -1,0 +1,4 @@
+$ ./struct_sizes
+struct nopad     : size 24  offsets c1=0 l=8 c2=16
+struct reordered : size 16  offsets l=0 c1=8 c2=9
+struct packed    : size 10  offsets c1=0 l=1 c2=9

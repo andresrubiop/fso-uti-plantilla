@@ -1,0 +1,6 @@
+$ ./cow 256
+parent: 256 MiB filled (65536 pages of 4096 bytes)
+fork took 6.70 ms (only the page tables are copied)
+child reads  65536 pages: 0 page faults (shared, nothing copied; sum 7864320)
+child writes 16384 pages: 16384 page faults (one copy per page), 2753 ns per copy
+parent: the child exited with status 0; my copy still says 'x'

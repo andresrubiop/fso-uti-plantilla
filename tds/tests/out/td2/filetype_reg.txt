@@ -1,0 +1,2 @@
+$ ./filetype < ./filetype
+stdin: regular file (inode 12211060, 1 link(s), 33584 bytes, mode 0775)

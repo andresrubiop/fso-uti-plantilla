@@ -1,0 +1,3 @@
+$ ./agent "lee atajo"
+model: read_file("atajo")
+policy: deny (resolves to /etc/passwd, outside the workspace)

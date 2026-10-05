@@ -1,0 +1,4 @@
+$ cd demo && ../pipeline
+total8
+-rw-rw-r--1studentstudent4Sep3013:13one.txt
+-rw-rw-r--1studentstudent2Sep3013:13two.txt

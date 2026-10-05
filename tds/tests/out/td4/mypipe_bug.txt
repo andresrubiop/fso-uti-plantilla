@@ -1,0 +1,3 @@
+$ timeout 3 ./mypipe_bug 10000 > /dev/null; echo "exit status: $? (124 = killed by timeout: it was blocked)"
+I am the child, I read 500 bytes and I leave
+exit status: 124 (124 = killed by timeout: it was blocked)

@@ -1,0 +1,4 @@
+$ ./tickets_sem 100000 | tail -3
+[6] I sold 14469 tickets
+[2] I sold 11537 tickets
+100000 tickets sold out of 100000 (tickets = 0)

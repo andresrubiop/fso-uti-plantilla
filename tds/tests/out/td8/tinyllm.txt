@@ -1,0 +1,28 @@
+$ ./tinyllm -v "lista los archivos de docs"
+  step  0:  'l' 100.0%  'f'   0.0%  'r'   0.0%
+  step  1:  'i' 100.0%  'q'   0.0%  '4'   0.0%
+  step  2:  's' 100.0%  'g'   0.0%  'q'   0.0%
+  step  3:  't' 100.0%  'k'   0.0%  'b'   0.0%
+  step  4:  '_' 100.0%  '-'   0.0%  'k'   0.0%
+  step  5:  'f' 100.0%  '2'   0.0%  'c'   0.0%
+  step  6:  'i' 100.0%  'o'   0.0%  'n'   0.0%
+  step  7:  'l' 100.0%  'L'   0.0%  's'   0.0%
+  step  8:  'e' 100.0%  'o'   0.0%  'f'   0.0%
+  step  9:  's' 100.0%  '('   0.0%  'q'   0.0%
+  step 10:  '(' 100.0%  ' '   0.0%  'g'   0.0%
+  step 11:  '"' 100.0%  ' '   0.0%  'R'   0.0%
+  step 12:  'd' 100.0%  'k'   0.0%  'b'   0.0%
+  step 13:  'o' 100.0%  'i'   0.0%  'e'   0.0%
+  step 14:  'c' 100.0%  'k'   0.0%  'f'   0.0%
+  step 15:  's' 100.0%  'q'   0.0%  'f'   0.0%
+  step 16:  '"' 100.0%  'z'   0.0%  'k'   0.0%
+  step 17:  ')' 100.0%  ','   0.0%  ':'   0.0%
+  step 18:  '\n' 100.0%  'A'   0.0%  ' '   0.0%
+list_files("docs")
+
+model      : 174656 parameters, 3 layers, 4 heads, d=64, context 128 bytes
+weights    : 698688 bytes mapped with mmap (MAP_PRIVATE, PROT_READ)
+KV cache   : 201984 bytes per request (+ scratch)
+tokens     : 33 of prompt (prefill) + 19 generated (decode)
+time       : load 0.042 ms, inference 9.08 ms (5730 tokens/s)
+page faults: 2 during load, 47 during the first inference (minor; major: 0)

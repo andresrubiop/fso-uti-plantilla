@@ -1,0 +1,6 @@
+$ ./agent "muéstrame notas.txt"
+model: read_file("notas.txt")
+policy: allow (tool in the catalogue, path inside the workspace)
+[sandbox: Landlock ABI 8, workspace only]
+Laboratorio TD8
+fork, exec, pipe, mmap, sockets

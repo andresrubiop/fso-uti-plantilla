@@ -1,0 +1,4 @@
+$ for i in 1 2 3; do ./zones | grep main; done
+code   (main)            0x57a1f784a350   r-xp  ~/fso/tds/bin/td3/zones
+code   (main)            0x5d648e064350   r-xp  ~/fso/tds/bin/td3/zones
+code   (main)            0x56e46bc21350   r-xp  ~/fso/tds/bin/td3/zones

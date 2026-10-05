@@ -1,0 +1,6 @@
+$ exec 3< notas.txt; rm notas.txt copia.txt; readlink /proc/$$/fd/3; cat <&3; ls -l atajo; cat atajo
+~/fso/tds/tests/tmp/td2/notas.txt (deleted)
+hola inodo
+lrwxrwxrwx 1 student student 9 Sep 30 13:12 atajo -> notas.txt
+cat: atajo: No such file or directory
+[exit status 1]

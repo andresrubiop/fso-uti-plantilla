@@ -1,0 +1,3 @@
+$ ./agent "borra /etc/passwd"
+model: delete_file("/etc/passwd")
+policy: deny (absolute path outside the workspace)

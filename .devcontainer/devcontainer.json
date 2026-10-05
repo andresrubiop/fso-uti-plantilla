@@ -1,0 +1,30 @@
+{
+  "name": "Fundamentos de los Sistemas Operativos · Ubuntu 26.04",
+  "image": "mcr.microsoft.com/devcontainers/base:resolute",
+  "capAdd": [
+    "SYS_PTRACE"
+  ],
+  "securityOpt": [
+    "seccomp=unconfined"
+  ],
+  "hostRequirements": {
+    "cpus": 2
+  },
+  "postCreateCommand": "bash .devcontainer/preparar.sh",
+  "forwardPorts": [
+    8765
+  ],
+  "portsAttributes": {
+    "8765": {
+      "label": "Aula FSO + terminal (python3 tds/terminal.py)",
+      "onAutoForward": "silent"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+$ ./alias_open
+abcdabcd

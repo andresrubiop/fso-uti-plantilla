@@ -1,0 +1,5 @@
+$ ./local fso.sock
+bind created fso.sock: a file of type socket (the 's' of ls -l), sun_path holds 108 bytes
+the server asks the kernel who connected: pid = mine, uid 1000 (my user)
+read 5 bytes; after close the file stays until unlink
+still there after close: yes

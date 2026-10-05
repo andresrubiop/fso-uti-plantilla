@@ -1,0 +1,5 @@
+$ ./agent_exec workspace read_file /etc/hostname; ./agent_exec --no-sandbox workspace read_file /etc/hostname
+[sandbox: Landlock ABI 8, workspace only]
+read_file: /etc/hostname: Permission denied
+[sandbox: DISABLED]
+host

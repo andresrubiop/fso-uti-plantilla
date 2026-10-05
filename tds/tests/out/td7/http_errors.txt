@@ -1,0 +1,3 @@
+$ curl -s -o /dev/null -w '%{http_code}' .../missing.html ; curl --path-as-is .../../etc/passwd
+404
+403

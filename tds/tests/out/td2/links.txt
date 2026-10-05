@@ -1,0 +1,4 @@
+$ ln notas.txt copia.txt; ln -s notas.txt atajo; ls -li notas.txt copia.txt atajo
+12190687 lrwxrwxrwx 1 student student  9 Sep 30 13:12 atajo -> notas.txt
+12190686 -rw-rw-r-- 2 student student 11 Sep 30 13:12 copia.txt
+12190686 -rw-rw-r-- 2 student student 11 Sep 30 13:12 notas.txt

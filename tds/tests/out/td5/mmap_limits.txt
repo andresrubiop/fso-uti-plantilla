@@ -1,0 +1,4 @@
+$ ./mmap_limits
+file size 128 bytes, page size 4096 bytes, mapping of 8192 bytes
+wrote bytes 0..4095; byte 4096 raised SIGBUS
+file size after the writes: 128 bytes

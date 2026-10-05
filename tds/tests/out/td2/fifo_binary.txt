@@ -1,0 +1,3 @@
+$ ./fifo_server bin.fifo > received.bin & sleep 0.3; ./fifo_client bin.fifo < photo.bin; wait; cmp photo.bin received.bin && echo 'binary file received intact'
+photo.bin received.bin differ: byte 1, line 1
+[exit status 1]

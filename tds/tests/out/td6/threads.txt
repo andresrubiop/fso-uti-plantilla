@@ -1,0 +1,10 @@
+$ ./threads
+thread 57632 of process 357789: shared[0x650ff476602c] = 1, local[0x7626e31fee74] = 1
+thread 79520 of process 357789: shared[0x650ff476602c] = 4, local[0x7626e19fbe74] = 1
+thread 19968 of process 357789: shared[0x650ff476602c] = 5, local[0x7626dbffee74] = 1
+thread 64928 of process 357789: shared[0x650ff476602c] = 2, local[0x7626e29fde74] = 1
+thread 72224 of process 357789: shared[0x650ff476602c] = 3, local[0x7626e21fce74] = 1
+thread 86816 of process 357789: shared[0x650ff476602c] = 6, local[0x7626e11fae74] = 1
+thread 94112 of process 357789: shared[0x650ff476602c] = 7, local[0x7626e09f9e74] = 1
+thread 27264 of process 357789: shared[0x650ff476602c] = 8, local[0x7626db7fde74] = 1
+process 357789: all 8 threads finished, shared = 8

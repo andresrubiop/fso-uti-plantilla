@@ -1,0 +1,4 @@
+$ ./create_cost 2000
+2000 threads:     41.2 us per pthread_create + pthread_join
+2000 processes:  248.8 us per fork + waitpid
+a process costs 6.0 times a thread

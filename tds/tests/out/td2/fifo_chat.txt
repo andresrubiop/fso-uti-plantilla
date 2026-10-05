@@ -1,0 +1,3 @@
+$ ./fifo_server chat.fifo & sleep 0.3; echo 'hola desde el cliente' | ./fifo_client chat.fifo; wait
+server: waiting for clients on chat.fifo
+hola desde el cliente

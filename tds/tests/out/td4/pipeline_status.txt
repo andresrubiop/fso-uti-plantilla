@@ -1,0 +1,2 @@
+$ ./pipeline_args ls -- sh -c 'exit 3'; echo "status: $?"
+status: 3

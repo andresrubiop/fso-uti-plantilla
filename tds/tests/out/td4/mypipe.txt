@@ -1,0 +1,13 @@
+$ ./mypipe
+I am the parent, I wrote 10 messages and I leave
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+Hello World
+I am the child, I read 120 bytes and I leave

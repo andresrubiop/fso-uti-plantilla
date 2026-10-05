@@ -1,0 +1,5 @@
+$ ./agent "lee atajo"
+model: read_file("atajo")
+policy: allow (POLICY DISABLED)
+[sandbox: Landlock ABI 8, workspace only]
+read_file: atajo: Permission denied

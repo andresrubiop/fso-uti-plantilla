@@ -1,0 +1,6 @@
+$ objdump -d --no-show-raw-insn /usr/lib/x86_64-linux-gnu/libc.so.6 | grep -A4 -E '^[0-9a-f]+ <getppid@@'
+00000000000ff710 <getppid@@GLIBC_2.2.5>:
+   ff710:	endbr64
+   ff714:	mov    $0x6e,%eax
+   ff719:	syscall
+   ff71b:	ret
